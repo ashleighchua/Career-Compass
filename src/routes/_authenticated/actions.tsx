@@ -23,12 +23,12 @@ import { completeActionAsEvidence, listActions, updateActionStatus } from "@/lib
 export const Route = createFileRoute("/_authenticated/actions")({
   head: () => ({
     meta: [
-      { title: "Actions — Career Evidence Engine" },
+      { title: "Actions — Career Compass" },
       {
         name: "description",
         content: "The highest-leverage work to close your gaps — and a way to log it as evidence.",
       },
-      { property: "og:title", content: "Actions — Career Evidence Engine" },
+      { property: "og:title", content: "Actions — Career Compass" },
       { property: "og:description", content: "Build the proof, then capture it." },
     ],
   }),

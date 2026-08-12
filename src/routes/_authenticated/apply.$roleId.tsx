@@ -16,13 +16,13 @@ import {
 export const Route = createFileRoute("/_authenticated/apply/$roleId")({
   head: () => ({
     meta: [
-      { title: "Application prep — Career Evidence Engine" },
+      { title: "Application prep — Career Compass" },
       {
         name: "description",
         content:
           "Positioning, resume bullets and a cover letter built only from evidence you can back up.",
       },
-      { property: "og:title", content: "Application prep — Career Evidence Engine" },
+      { property: "og:title", content: "Application prep — Career Compass" },
       {
         property: "og:description",
         content: "Every line traced back to a real piece of your evidence.",

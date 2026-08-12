@@ -17,12 +17,12 @@ export const Route = createFileRoute("/auth")({
   validateSearch: searchSchema,
   head: () => ({
     meta: [
-      { title: "Sign in — Career Evidence Engine" },
+      { title: "Sign in — Career Compass" },
       {
         name: "description",
         content: "Sign in to assess your evidence against the role you want next.",
       },
-      { property: "og:title", content: "Sign in — Career Evidence Engine" },
+      { property: "og:title", content: "Sign in — Career Compass" },
       {
         property: "og:description",
         content: "Sign in to assess your evidence against the role you want next.",
@@ -113,7 +113,7 @@ function AuthPage() {
     <div className="flex min-h-screen flex-col bg-background">
       <header className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-6">
         <Link to="/" className="font-display text-sm font-semibold tracking-tight">
-          Career Evidence Engine
+          Career Compass
         </Link>
       </header>
       <main className="flex flex-1 items-start justify-center px-6 pt-6 pb-20">

@@ -11,9 +11,9 @@ import { deleteAllUserData, exportUserData, seedDemoData } from "@/lib/career.fu
 export const Route = createFileRoute("/_authenticated/settings")({
   head: () => ({
     meta: [
-      { title: "Settings — Career Evidence Engine" },
+      { title: "Settings — Career Compass" },
       { name: "description", content: "Manage your demo data, exports and account." },
-      { property: "og:title", content: "Settings — Career Evidence Engine" },
+      { property: "og:title", content: "Settings — Career Compass" },
       { property: "og:description", content: "Manage your data and account." },
     ],
   }),

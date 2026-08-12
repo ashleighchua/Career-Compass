@@ -39,12 +39,12 @@ import {
 export const Route = createFileRoute("/_authenticated/roles/$roleId")({
   head: () => ({
     meta: [
-      { title: "Role assessment — Career Evidence Engine" },
+      { title: "Role assessment — Career Compass" },
       {
         name: "description",
         content: "Requirement-by-requirement assessment of your evidence against this role.",
       },
-      { property: "og:title", content: "Role assessment — Career Evidence Engine" },
+      { property: "og:title", content: "Role assessment — Career Compass" },
       {
         property: "og:description",
         content:

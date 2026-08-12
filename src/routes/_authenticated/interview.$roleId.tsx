@@ -19,13 +19,13 @@ import {
 export const Route = createFileRoute("/_authenticated/interview/$roleId")({
   head: () => ({
     meta: [
-      { title: "Interview mode — Career Evidence Engine" },
+      { title: "Interview mode — Career Compass" },
       {
         name: "description",
         content:
           "Practise the questions this panel would actually ask you, grounded in your own evidence.",
       },
-      { property: "og:title", content: "Interview mode — Career Evidence Engine" },
+      { property: "og:title", content: "Interview mode — Career Compass" },
       {
         property: "og:description",
         content: "Questions built from your gaps, with honest feedback on your answers.",

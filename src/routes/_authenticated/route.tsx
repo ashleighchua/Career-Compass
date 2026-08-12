@@ -40,7 +40,7 @@ function AuthenticatedLayout() {
       <aside className="bg-sidebar border-sidebar-border shrink-0 border-b md:sticky md:top-0 md:h-screen md:w-60 md:border-e md:border-b-0">
         <div className="flex h-full flex-col gap-6 p-4">
           <Link to="/dashboard" className="font-display px-2 text-sm font-semibold tracking-tight">
-            Career Evidence Engine
+            Career Compass
           </Link>
           <nav className="flex gap-1 overflow-x-auto md:flex-col md:overflow-visible">
             {NAV.map((item) => (

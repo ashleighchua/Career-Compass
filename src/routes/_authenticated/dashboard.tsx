@@ -19,12 +19,12 @@ import { getOverview, seedDemoData, assessRole } from "@/lib/career.functions";
 export const Route = createFileRoute("/_authenticated/dashboard")({
   head: () => ({
     meta: [
-      { title: "Dashboard — Career Evidence Engine" },
+      { title: "Dashboard — Career Compass" },
       {
         name: "description",
         content: "Your evidence coverage against your active target role, and what to do next.",
       },
-      { property: "og:title", content: "Dashboard — Career Evidence Engine" },
+      { property: "og:title", content: "Dashboard — Career Compass" },
       { property: "og:description", content: "Evidence coverage and next actions." },
     ],
   }),

@@ -31,12 +31,12 @@ import {
 export const Route = createFileRoute("/_authenticated/evidence")({
   head: () => ({
     meta: [
-      { title: "Evidence — Career Evidence Engine" },
+      { title: "Evidence — Career Compass" },
       {
         name: "description",
         content: "Everything you've done, captured as evidence and mapped to capabilities.",
       },
-      { property: "og:title", content: "Evidence — Career Evidence Engine" },
+      { property: "og:title", content: "Evidence — Career Compass" },
       { property: "og:description", content: "Capture what you've done as usable proof." },
     ],
   }),
