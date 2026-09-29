@@ -8,7 +8,12 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
   // Nitro emits Vercel functions and static assets for production deployment.
-  nitro: { preset: "vercel" },
+  nitro: {
+    preset: "vercel",
+    // Without this, rolldown emits circular server chunks that evaluate out of order
+    // and crash every request with "createCsrfMiddleware is not a function".
+    rollupConfig: { output: { strictExecutionOrder: true } },
+  },
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this
